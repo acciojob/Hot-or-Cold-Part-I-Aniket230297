@@ -23,4 +23,6 @@ function print() {
   }
 }
 
+btn.addEventListener("click", randomNumGenerator);
+
 
