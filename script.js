@@ -1,6 +1,9 @@
 //your code here
-var randomNum;
-var input;
+
+var btn = document.getElementById("btn");
+var numPtag=document.getElementById("num");
+var res=document.getElementById("respond");
+var inputValue=document.getElementById("guess").value;
 
 function randomNumGenerator() {
   randomNum = Math.floor(Math.random() * 41) - 20;
