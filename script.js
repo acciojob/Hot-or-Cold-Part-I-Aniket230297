@@ -2,7 +2,7 @@
 
 var btn = document.getElementById("btn");
 var numPtag=document.getElementById("num");
-var res=document.getElementById("response");
+var res=document.getElementById("respond");
 var inputValue=document.getElementById("guess").value;
 
 function randomNumGenerator() {
@@ -17,9 +17,9 @@ function guessNum() {
 }
 function print() {
   if (Math.abs(randomNum - input) <= 5) {
-    document.getElementById("response").innerText = "Hot";
+    document.getElementById("respond").innerText = "Hot";
   } else {
-    document.getElementById("response").innerHTML = "Cold";
+    document.getElementById("respond").innerHTML = "Cold";
   }
 }
 
